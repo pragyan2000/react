@@ -1,0 +1,56 @@
+model,view,controller-
+view - html files
+
+controllers -- work with user input or browser request, play an importnnat role in flow of application by handling incoming request and provide data to corresponding view or to browser request.
+controllers are .cs files which reside in controllers folder,controllers are used to handle browser incmong htttp request ,get data from models if required, provide data to corresponding view or request and generate response.
+
+
+when to new controller--when you need an operation of an entity if you already have n realted controller the use it otherwise create a new controller and create action method.
+
+
+view -- UI of an application, everything which is visible to the user in browser is view.
+
+
+
+
+
+
+namespace- it is used to organize your code and it is the collection of the classes ,interface,structs, enums, and delegates
+classes-any code which we write must be in the class
+main- entry point of the application
+
+
+
+
+web API
+Application Programming Interface
+Rest-represenation state transfer- it is the comb9nation of principles that must be followed by the web api.
+
+Url sturcture
+
+
+Http- hyper text transfer protocol it is used for the communication between client and web server.
+request- url , method(verb), header . body ,data.
+response- status code, response header , data.
+
+
+method- 
+get- the get method is used to retrieve data
+post- this is used to make a new entry in the database.
+put- it is used to update the all the properties of the currenet resource in the database.
+patch-it is similar to the put but is is used to update partial properties of current resources in the database.
+delete- delete the resouse from the database
+
+
+status code-are issued from the server and they gave the infomation  about the responces.
+
+-200 ok
+-201- new resourse created
+-204 no content
+
+
+Sql server- is a dbms and provide the complete enviormemet to save and work with the data of application, stores data is form of the tabel,we may create relationship in 
+between the tables.
+
+
+
